@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel • Lucid12</div>
+                <div class="title">Laravel • Lucid</div>
             </div>
         </div>
     </body>
