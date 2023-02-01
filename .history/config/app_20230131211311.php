@@ -182,7 +182,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         App\Services\Blog\Providers\BlogServiceProvider::class,
-        App\Services\Admin\Providers\AdminServiceProvider::class,
+        App\Services\Admin\Providers\BlogServiceProvider::class,
 
         /*
          * Package Service Providers...
