@@ -11,9 +11,9 @@ class RespondWithViewJob extends Job
      *
      * @return void
      */
-    public function __construct($template)
+    public function __construct()
     {
-        $this->template = $template;
+        //
     }
 
     /**
@@ -23,6 +23,7 @@ class RespondWithViewJob extends Job
      */
     public function handle()
     {
-        return view($this->template);
+        //
+        return ''
     }
 }

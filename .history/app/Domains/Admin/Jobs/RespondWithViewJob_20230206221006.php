@@ -23,6 +23,7 @@ class RespondWithViewJob extends Job
      */
     public function handle()
     {
+        //return $this->template;
         return view($this->template);
     }
 }

@@ -10,7 +10,7 @@ class LoginViewFeature extends Feature
 {
     public function handle(Request $request)
     {
-        $template = 'admin::welcome';
+        $template = 'welcome';
         return $this->run(new RespondWithViewJob($template));
     }
 }
