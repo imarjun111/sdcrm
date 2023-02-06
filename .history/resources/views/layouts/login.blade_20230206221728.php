@@ -1,7 +1,47 @@
-@extends('layouts.login')
-@section('content')
+<!doctype html>
+<html class="no-js" lang="en">
 
-<div class="color-line"></div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login | SDK</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css'); }}">
+    
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css'); }}">
+  
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/main.css'); }}">
+   
+
+    <!-- forms CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/form/all-type-forms.css'); }}">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/style.css'); }}">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{ asset('css/responsive.css'); }}">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js'); }}"></script>
+</head>
+
+<body>
+ 
+
+    <div class="color-line"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -40,5 +80,7 @@
         </div>
        
     </div>
+   
+</body>
 
-    @stop
+</html>

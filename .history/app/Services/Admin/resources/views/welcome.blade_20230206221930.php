@@ -1,4 +1,4 @@
-@extends('layouts.login')
+@extends('layouts.default')
 @section('content')
 
 <div class="color-line"></div>

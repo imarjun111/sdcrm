@@ -1,6 +1,3 @@
-@extends('layouts.login')
-@section('content')
-
 <div class="color-line"></div>
     <div class="container-fluid">
         <div class="row">
@@ -40,5 +37,3 @@
         </div>
        
     </div>
-
-    @stop

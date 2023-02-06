@@ -1,7 +1,14 @@
-@extends('layouts.login')
-@section('content')
+<!doctype html>
+<html class="no-js" lang="en">
 
-<div class="color-line"></div>
+<head>
+        @include('includes.head')
+</head>
+
+<body>
+ 
+
+    <div class="color-line"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -40,5 +47,7 @@
         </div>
        
     </div>
+   
+</body>
 
-    @stop
+</html>
